@@ -19,7 +19,9 @@ def reverse_array(i)
 end
 
 def kesha_maker(strings)
-  
+  new_names = []
+  array_to_string = strings.split
+  array_to_string.each do 
 end
 
 def find_a(word)
