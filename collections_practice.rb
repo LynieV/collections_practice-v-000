@@ -33,7 +33,7 @@ end
 
 def add_s(words)
   words.each_with_index.collect do |word|
-  if word[1] == word
+  if words[1] == word
       word
     else
       word + "s"
