@@ -27,8 +27,8 @@ def find_a(words)
   words.select {|word| word.start_with?("a")}
 end
 
-def sum_array
-  
+def sum_array(addition)
+  addition.inject(0){|sum,x| sum + x}
 end
 
 def add_s
