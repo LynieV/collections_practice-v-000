@@ -32,7 +32,5 @@ def sum_array(addition)
 end
 
 def add_s(words)
-  #words.each do |word| word.insert("s")
-  #end
   words.each_with_index.collect{|word, index| "#{word}s"}
 end
