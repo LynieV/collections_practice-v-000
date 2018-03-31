@@ -32,7 +32,10 @@ def sum_array(addition)
 end
 
 def add_s(words)
-  words.each_with_index.collect do |word, index| 
-    if words [1] "#{word}s"
+  words.each_with_index.collect do |word| 
+    if words [1] == word
+      word
+    else
+      "#{word}s"
     end
 end
