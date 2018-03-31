@@ -11,5 +11,5 @@ def sort_array_char_count(x)
 end
 
 def swap_elements(swap)
-  swap.each_by_index.sort {|i| 2 <=> 1 }
+  swap.each_by_index.sort {|b,c| 2 <=> 1 }
 end
