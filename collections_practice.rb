@@ -31,8 +31,8 @@ def sum_array(addition)
   addition.inject(0){|sum,x| sum + x}
 end
 
-def add_s(at_end)
-  at_end.each do |the_end| the_end[0,2,3].insert("s")
+def add_s(words)
+  words.each do |word| word[0,2,3].insert("s")
   end
   #[1,2].each_with_index.collect{|element, index| }
 end
