@@ -23,5 +23,5 @@ def kesha_maker(strings)
 end
 
 def find_a(word)
-  word.start_with?("a")
+  word.start_with?("a").select
 end
