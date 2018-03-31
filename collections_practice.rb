@@ -20,8 +20,9 @@ end
 
 def kesha_maker(strings)
   new_names = []
-  array_to_string = strings.split
-  array_to_string.each do 
+  strings.each do |string| new_names << 
+  end
+  new_names
 end
 
 def find_a(word)
