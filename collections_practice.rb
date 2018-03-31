@@ -19,10 +19,8 @@ def reverse_array(i)
 end
 
 def kesha_maker(strings)
-  new_names = []
-  strings.each do |string| new_names << string[2] = "$"
+  strings.each do |string| string[2] = "$"
   end
-  new_names
 end
 
 def find_a(word)
