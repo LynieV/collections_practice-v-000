@@ -32,5 +32,5 @@ def sum_array(addition)
 end
 
 def add_s(words)
-  words.each_with_index.collect{|word, index| "#{word}s"}.except("feet")
+  words.each_with_index.collect{|word, index[0,2,3]| "#{word}s"}
 end
