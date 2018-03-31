@@ -10,3 +10,6 @@ def sort_array_char_count(x)
   x.sort {|left, right| left.length <=> right.length}
 end
 
+def swap_elements
+  
+end
