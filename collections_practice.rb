@@ -23,8 +23,8 @@ def kesha_maker(strings)
   end
 end
 
-def find_a(word)
-  word.select {.start_with?("a")
+def find_a(words)
+  words.select {|word| word.start_with?("a")}
 end
 
 def sum_array
