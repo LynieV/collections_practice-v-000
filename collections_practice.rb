@@ -33,5 +33,4 @@ end
 
 def add_s(words)
   words.each_with_index.collect {|word, index| "#{word}s"}
-  #[1,2].each_with_index.collect{|element, index| }
 end
