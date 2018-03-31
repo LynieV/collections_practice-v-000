@@ -31,7 +31,7 @@ def sum_array(addition)
   addition.inject(0){|sum,x| sum + x}
 end
 
-def add_s
-  
+def add_s(at_end)
+  strings.each do |string| string[2] = "$"
   #[1,2].each_with_index.collect{|element, index| }
 end
