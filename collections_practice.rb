@@ -20,7 +20,7 @@ end
 
 def kesha_maker(strings)
   new_names = []
-  strings.each do |string| new_names << 
+  strings.each do |string| new_names << string.insert()
   end
   new_names
 end
