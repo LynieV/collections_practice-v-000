@@ -21,3 +21,7 @@ end
 def kesha_maker(strings)
   
 end
+
+def find_a(word)
+  word.select
+end
